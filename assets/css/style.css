@@ -1,7 +1,9 @@
 * {
+  font-family: 'Product Sans', Arial, sans-serif;
   border-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: #414549; }
 
 .container {
   width: 100%;
@@ -16,7 +18,7 @@
 
 [class*="col-"] {
   min-height: 7px;
-  padding: 32px;
+  /*padding: 32px;*/
   float: left; }
 
 .col-1 {
@@ -54,5 +56,72 @@
 
 .col-12 {
   width: 100%; }
+
+.col-1-offset {
+  margin-left: anchoColumns(1); }
+
+.col-2-offset {
+  margin-left: anchoColumns(2); }
+
+.col-3-offset {
+  margin-left: anchoColumns(3); }
+
+.col-4-offset {
+  margin-left: anchoColumns(4); }
+
+.col-5-offset {
+  margin-left: anchoColumns(5); }
+
+.col-6-offset {
+  margin-left: anchoColumns(6); }
+
+.col-7-offset {
+  margin-left: anchoColumns(7); }
+
+.col-8-offset {
+  margin-left: anchoColumns(8); }
+
+.col-9-offset {
+  margin-left: anchoColumns(9); }
+
+.col-10-offset {
+  margin-left: anchoColumns(10); }
+
+.col-11-offset {
+  margin-left: anchoColumns(11); }
+
+.col-12-offset {
+  margin-left: anchoColumns(12); }
+
+a {
+  text-decoration: none; }
+
+.logo {
+  text-align: center; }
+
+.images {
+  width: 98%;
+  text-align: center;
+  margin: 10px 0px 10px 0px; }
+
+.navv {
+  text-align: center; }
+
+.inline {
+  display: inline-block; }
+
+.news-der {
+  float: right; }
+
+.asana {
+  width: 20px; }
+
+.blok {
+  display: block; }
+
+.sub-footer {
+  height: 120px;
+  border-top: solid black 1px;
+  padding-top: 15px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -136,10 +136,12 @@ p {
   border-top: solid black 1px;
   padding-top: 15px; }
 
-div .col-6:hover {
-  box-shadow: 10px 10px 5px #888888;
-  cursor: pointer; }
-
+/*div {
+    .col-6:hover{
+        box-shadow: 10px 10px 5px #888888;
+        cursor:pointer;
+    }
+}*/
 .shadow:hover {
   box-shadow: 10px 10px 5px #888888;
   cursor: pointer; }
@@ -150,5 +152,9 @@ hr {
 
 div {
   width: 98%; }
+
+/*.inv{
+    border: 2px solid invert($blue);
+}*/
 
 /*# sourceMappingURL=style.css.map */

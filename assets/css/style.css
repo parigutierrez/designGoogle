@@ -1,9 +1,7 @@
 * {
-  font-family: 'Product Sans', Arial, sans-serif;
   border-sizing: border-box;
   margin: 0;
-  padding: 0;
-  color: #414549; }
+  padding: 0; }
 
 .container {
   width: 100%;
@@ -18,7 +16,7 @@
 
 [class*="col-"] {
   min-height: 7px;
-  /*padding: 32px;*/
+  /*padding: 8px;*/
   float: left; }
 
 .col-1 {
@@ -57,50 +55,64 @@
 .col-12 {
   width: 100%; }
 
-.col-1-offset {
-  margin-left: anchoColumns(1); }
+[class*="offset-"] {
+  min-height: 7px;
+  /*padding: 32px;*/
+  float: left; }
 
-.col-2-offset {
-  margin-left: anchoColumns(2); }
+.offset-1 {
+  margin-left: 8.33333%; }
 
-.col-3-offset {
-  margin-left: anchoColumns(3); }
+.offset-2 {
+  margin-left: 16.66667%; }
 
-.col-4-offset {
-  margin-left: anchoColumns(4); }
+.offset-3 {
+  margin-left: 25%; }
 
-.col-5-offset {
-  margin-left: anchoColumns(5); }
+.offset-4 {
+  margin-left: 33.33333%; }
 
-.col-6-offset {
-  margin-left: anchoColumns(6); }
+.offset-5 {
+  margin-left: 41.66667%; }
 
-.col-7-offset {
-  margin-left: anchoColumns(7); }
+.offset-6 {
+  margin-left: 50%; }
 
-.col-8-offset {
-  margin-left: anchoColumns(8); }
+.offset-7 {
+  margin-left: 58.33333%; }
 
-.col-9-offset {
-  margin-left: anchoColumns(9); }
+.offset-8 {
+  margin-left: 66.66667%; }
 
-.col-10-offset {
-  margin-left: anchoColumns(10); }
+.offset-9 {
+  margin-left: 75%; }
 
-.col-11-offset {
-  margin-left: anchoColumns(11); }
+.offset-10 {
+  margin-left: 83.33333%; }
 
-.col-12-offset {
-  margin-left: anchoColumns(12); }
+.offset-11 {
+  margin-left: 91.66667%; }
+
+.offset-12 {
+  margin-left: 100%; }
+
+* {
+  font-family: 'Product Sans', Arial, sans-serif;
+  color: #414549; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px; }
+
+p {
+  font-family: 'Roboto', sans-serif; }
 
 .logo {
   text-align: center; }
 
 .images {
-  width: 98%;
+  width: 90%;
   text-align: center;
   margin: 10px 0px 10px 0px; }
 
@@ -123,5 +135,20 @@ a {
   height: 120px;
   border-top: solid black 1px;
   padding-top: 15px; }
+
+div .col-6:hover {
+  box-shadow: 10px 10px 5px #888888;
+  cursor: pointer; }
+
+.shadow:hover {
+  box-shadow: 10px 10px 5px #888888;
+  cursor: pointer; }
+
+hr {
+  margin: 20px 0px 20px 0px;
+  border: 2px solid #4285f4; }
+
+div {
+  width: 98%; }
 
 /*# sourceMappingURL=style.css.map */

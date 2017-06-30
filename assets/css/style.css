@@ -153,8 +153,7 @@ hr {
 div {
   width: 98%; }
 
-/*.inv{
-    border: 2px solid invert($blue);
-}*/
+h5 {
+  color: #bd7a0b; }
 
 /*# sourceMappingURL=style.css.map */
